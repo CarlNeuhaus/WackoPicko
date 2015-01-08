@@ -14,12 +14,12 @@ function our_header($selected = "", $search_terms = "")
     <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print"> 
     <!--[if IE]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="/css/stylings.css" type="text/css" media="screen">
-    <title>WackoPicko.com</title>
+    <title>thisisdefinitelynotPwC.com</title>
   </head>
   <body>
     <div class="container " style="border: 2px solid #5c95cf;">
       <div class="column span-24 first last">
-	<h1 id="title"><a href="/">WackoPicko.com</a></h1>
+	<h1 id="title"><a href="/">thisisdefinitelynotPwC.com</a></h1>
       </div>
       <div id="menu">
 	<div class="column prepend-1 span-14 first">

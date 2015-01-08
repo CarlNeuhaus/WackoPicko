@@ -6,7 +6,10 @@ require_once("../include/html_functions.php");
 require_once("../include/functions.php");
 
 session_start();
+
 $_GET = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRING);
+
+set($GET['query'])
 
 if (!isset($_GET['query']))
 {
