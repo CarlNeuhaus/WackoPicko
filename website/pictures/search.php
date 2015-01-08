@@ -6,13 +6,13 @@ require_once("../include/html_functions.php");
 require_once("../include/functions.php");
 
 session_start();
+$_GET = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRING);
 
 if (!isset($_GET['query']))
 {
    http_redirect("/error.php?msg=Error, need to provide a query to search");
 }
-
-$pictures = Pictures::get_all_pictures_by_tag($_GET['query']);
+	$pictures = Pictures::get_all_pictures_by_tag($_GET['query']);
 
 ?>
 
